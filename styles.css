@@ -60,6 +60,10 @@ body, html {
     text-align: center;
 }
 
+.mobile-paragraph {
+    display: none;
+}
+
 #privacy-settings-container {
     background-color: #fff;
     width: 100%;
@@ -281,4 +285,14 @@ body, html {
 
 #signup-title-nav {
     height: 23px;
+}
+
+@media (max-width: 850px) {
+    #sign-in-floater-container {
+        display: none;
+    }
+
+    .mobile-paragraph {
+        display: block;
+    }
 }
